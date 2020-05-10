@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -5,7 +6,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <meta name="description" content="">
         <meta name="author" content="">
-        <title>Jihye Oh - Portfolio</title>
+        <title>Freelancer - Start Bootstrap Theme</title>
         <!-- Font Awesome icons (free version)-->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/js/all.min.js" crossorigin="anonymous"></script>
         <!-- Core theme CSS (includes Bootstrap)-->
@@ -22,7 +23,7 @@
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">PORTFOLIO</a>
                         </li>
-                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">ABOUT ME</a>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">ABOUT</a>
                         </li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">CONTACT</a>
                         </li>
@@ -48,10 +49,9 @@ Developer - Front/Back End
 Yoga Instructor
 Starbucks Partner
 Based on Seoul, Seattle, New York</p>
+                </p>
             </div>
-            <hr>
         </header>
-
         <section class="page-section portfolio" id="portfolio">
             <div class="container">
                 <!-- Portfolio Section Heading-->
@@ -59,8 +59,12 @@ Based on Seoul, Seattle, New York</p>
                     <h2 class="page-section-heading text-secondary mb-0 d-inline-block">PORTFOLIO</h2>
                 </div>
                 <!-- Icon Divider-->
+                <div class="divider-custom">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
+                </div>
                 <!-- Portfolio Grid Items-->
-                <br><br>
                 <div class="row">
                     <!-- Portfolio Items-->
                     <div class="col-md-6 col-lg-4 mb-5">
@@ -119,16 +123,16 @@ Based on Seoul, Seattle, New York</p>
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h1 class="portfolio-modal-title text-black mb-0">Git Hub</h1><br>
+                                    <h2 class="portfolio-modal-title text-black mb-0">Git Hub</h2><br>
                                     <!-- Icon Divider-->
                                     <a href="https://github.com/JihyeHaley"><img src="assets/img/gitpng.png" style="width:150px"alt="Git hub"/></a>
                                     <!-- Portfolio Modal - Image-->
-                                    <h1>Click the logo to look around<h1><h1 class="font-italic">"Jihye's Github"</h1><br>
+                                    <h1>Click the photo to look around<h1><h1 class="font-italic">"Jihye's Github"</h1><br>
                                     
                                     I have been commiting since November 2019. 
                                     While studying at the Samsung SDS Multicampus and learning codes through CS50 "Web Programming" and "Introduction to Computer Science," which is held by Harvard Univeristy,
                                     I studied myself and use it as my own little blog to record my computer programming system and personal life activity.<br>
-                                    <br><hr>
+                                    
                                     
                                     <br>
                                     <h4 class="font-italic">Preview</h4>
@@ -147,8 +151,6 @@ Based on Seoul, Seattle, New York</p>
                 </div>
             </div>
         </div>
-
-        <!--Portfolio-->
         <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-labelledby="#portfolioModal1Label" aria-hidden="true">
             <div class="modal-dialog modal-xl" role="document">
                 <div class="modal-content">
@@ -158,168 +160,154 @@ Based on Seoul, Seattle, New York</p>
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h1 class="portfolio-modal-title text-black text-secondary mb-0">Experience</h1><br><br><br><br>
+                                    <h2 class="portfolio-modal-title text-black text-secondary mb-0">Experience</h2><br><br>
+                                    <!-- Icon Divider-->
+                                    <img src="assets/img/jihye.png" style="width:200px" alt="Experience"/><br><br>
                                     <!-- Portfolio Modal - Image-->
-                                    <img src="assets/img/yonsei.png" style="width:30.3333333333%" alt="Experience"/>
-                                    <img src="assets/img/jihye.png" style="width:30.3333333333%" alt="Experience"/>
-                                    <img src="assets/img/starbucks.png" style="width:30.3333333333%" alt="Experience"/>
-                                    <br><br><br><br>
                                     <!-- Portfolio Modal - Text-->
                                     <div class="text-left">
-                                        <h1>Education</h1><br>
                                         <p>
                                             <h2>⚑ 2016-03 ~ 2020-08</h2>
-                                            <div class="col-lg-81">
-                                                <h4>B.A. Yonsei University East Asian International Studies</h4>
-                                                <h5>Business and Economic Track</h5>
-                                                <h5>연세대학교 동아시아국제학부 (경영/경제 트랙) 수료</h5>
-                                            </div>
-                                        </p><br><br>
-
+                                            <h4>Yeonsei University, East Asian International Studies</h4>
+                                            <h5>연세대학교 동아시아국제학부 수료</h5>
+                                                
+                                            ▪︎ stylesyltestyle
+                                        </p>
                                         <p>
                                             <h2>⚑ 2019-11 ~ 2020-07</h2>
-                                            <div class="col-lg-81">
-                                                <h4>Samsung SDS Multicampus / 삼성 SDS 멀티캠퍼스</h4>
-                                                <h5>삼성 SDS 멀티캠퍼스 Open API를 활용한 빅데이터 전처리-시각화</h5>
-                                                ▪︎ Before graduation, I was picked to take course of "Bigdata Platform using Open API" among hundred of applicants, which is based on Web and Bigdata Analysis held by Samsung SDS Multicampus. I have been learning   Java, SQL, HTML, CSS, JavaScript, JSP, Spring MVC, D3, SVG, My Batis, Leaflet, Linux, Hadoop, Spark, Scala, Python, R.
-                                                <img src="assets/img/jihyeskills.png" style="width:100%" alt="Experience"/>
-                                            </div>
-                                        
-                                        </p><br>
-                                        
-                                        <hr><br>
-
-                                        <h1>Work</h1><br>
+                                        <h4>Samsung SDS Multicampus / 삼성 SDS 멀티캠퍼스</h4>
+                                        <h5>삼성 SDS 멀티캠퍼스 Open API를 활용한 빅데이터 전처리-시각화</h5>
+                                            ▪︎ I elevated customer loyalty by using strong Asian Language skills like Korean,
+                                            Japanese, Chinese and also English. I was the only one and youngest who is able to
+                                            communicate with various languages at the store, and even since the store was
+                                            located at Hongik University which is the most famous traveling spot in Seoul, South
+                                            Korea. Although it makes me work harder than any other franchise stores, I was lucky
+                                            to have much opportunity to talk with a variety kind of people from all around the
+                                            world. It gave me the strong speaking ability and an ability to react quickly.<br>
+                                            ▪︎ Coworkers are calling me “the most suitable worker at this neighborhood.”<br>
+                                            ▪︎ I have big smile which is my strength. it was not difficult for me to have deep or
+                                            small talk between customer and my position. Thanks to my reacting, I have gotten
+                                            ranking 4th and 14th on the Partner Competition. They all happened only during a
+                                            month. Some of customers were coming to meet me. My service were marked as the
+                                            best at the zone where I worked so I have an opportunity to work at support center.<br>
+                                            ▪︎ Through my own experience at Starbucks retail shop, I can get powered up every
+                                            moment. By talking with many music, art college students, I can re-awake my passion
+                                            in studying arts which was my main major before entering into college. After that, I
+                                            am studying both software programming and designing. My passion leads me to do
+                                            my best at everywhere such as working or studying.<hr>
+                                        </p>
                                         <p>
                                             <h2>⚑ 2019-01 ~ 2019-08</h2>
-                                            <div class="col-lg-81">
-                                                <h4>Starbucks Korea Retail Store /스타벅스코리아 </h4>
-                                                <h5>Partner, Baristar</h5>
-                                                    ▪︎ I elevated customer loyalty by using strong Asian Language skills like Korean,
-                                                    Japanese, Chinese and also English. I was the only one and youngest who is able to
-                                                    communicate with various languages at the store, and even since the store was
-                                                    located at Hongik University which is the most famous traveling spot in Seoul, South
-                                                    Korea. Although it makes me work harder than any other franchise stores, I was lucky
-                                                    to have much opportunity to talk with a variety kind of people from all around the
-                                                    world. It gave me the strong speaking ability and an ability to react quickly.<br>
-                                                    ▪︎ Coworkers are calling me “the most suitable worker at this neighborhood.”<br>
-                                                    ▪︎ I have big smile which is my strength. it was not difficult for me to have deep or
-                                                    small talk between customer and my position. Thanks to my reacting, I have gotten
-                                                    ranking 4th and 14th on the Partner Competition. They all happened only during a
-                                                    month. Some of customers were coming to meet me. My service were marked as the
-                                                    best at the zone where I worked so I have an opportunity to work at support center.<br>
-                                                    ▪︎ Through my own experience at Starbucks retail shop, I can get powered up every
-                                                    moment. By talking with many music, art college students, I can re-awake my passion
-                                                    in studying arts which was my main major before entering into college. After that, I
-                                                    am studying both software programming and designing. My passion leads me to do
-                                                    my best at everywhere such as working or studying.
-                                            </div>
-                                        </p><br><br>
-
+                                            <h4>Starbucks Korea Retail Store /스타벅스코리아 </h4>
+                                            <h5>Partner, Baristar</h5>
+                                                ▪︎ I elevated customer loyalty by using strong Asian Language skills like Korean,
+                                                Japanese, Chinese and also English. I was the only one and youngest who is able to
+                                                communicate with various languages at the store, and even since the store was
+                                                located at Hongik University which is the most famous traveling spot in Seoul, South
+                                                Korea. Although it makes me work harder than any other franchise stores, I was lucky
+                                                to have much opportunity to talk with a variety kind of people from all around the
+                                                world. It gave me the strong speaking ability and an ability to react quickly.<br>
+                                                ▪︎ Coworkers are calling me “the most suitable worker at this neighborhood.”<br>
+                                                ▪︎ I have big smile which is my strength. it was not difficult for me to have deep or
+                                                small talk between customer and my position. Thanks to my reacting, I have gotten
+                                                ranking 4th and 14th on the Partner Competition. They all happened only during a
+                                                month. Some of customers were coming to meet me. My service were marked as the
+                                                best at the zone where I worked so I have an opportunity to work at support center.<br>
+                                                ▪︎ Through my own experience at Starbucks retail shop, I can get powered up every
+                                                moment. By talking with many music, art college students, I can re-awake my passion
+                                                in studying arts which was my main major before entering into college. After that, I
+                                                am studying both software programming and designing. My passion leads me to do
+                                                my best at everywhere such as working or studying.<hr>
+                                        </p>
                                         <p>
                                             <h2>⚑ 2018-07 ~ 2018-11</h2>
-                                            <div class="col-lg-81">
                                             <h4>English Tutoring for Musical actors / 뮤지컬배우 영어과외</h4>
                                                 ▪︎I taught English Speaking and reading skills to musical actors and actresses. The
                                                 reason why they learned language is that they had a dream to act in broad way
                                                 located in Manhattan. I was just an Instructor, but the power and passion of them
                                                 led me also fall in a section that I wanted to become or learn.<br>
                                                 ▪︎Some of my students had a chance to act musical “Cats.” It was so excited to lead
-                                                students to achieve their own precious dream.
-                                            </div>
-                                        </p><br><br>
+                                                students to achieve their own precious dream.<hr>
+                                        </p>
                                         
                                         <p>
                                             <h2>⚑ 2018-07 ~ 2018-11</h2>
-                                            <div class="col-lg-81">
-                                                <h4>Music Producing / 음반 프로듀싱</h4>
-                                                    ▪︎ I was teaching English to musical actors and actress. On the way to teach them, I
-                                                    have a chance to visit studio and make music together. That was a chance me to join
-                                                    in thinking of music notes and lyrics.<br>
-                                                    ▪︎ I am not official composer and writer, but participate played the piano and guitar
-                                                    and cello for music record.<br>
-                                                    ▪︎ In order to raise this interest, I am always trying to make music notes whenever a
-                                                    song thinks of.
-                                            </div>
-                                        </p><br><br>
+                                            <h4>Music Producing / 음반 프로듀싱</h4>
+                                                ▪︎ I was teaching English to musical actors and actress. On the way to teach them, I
+                                                have a chance to visit studio and make music together. That was a chance me to join
+                                                in thinking of music notes and lyrics.<br>
+                                                ▪︎ I am not official composer and writer, but participate played the piano and guitar
+                                                and cello for music record.<br>
+                                                ▪︎ In order to raise this interest, I am always trying to make music notes whenever a
+                                                song thinks of.<hr>
+                                        </p>
                                         
                                         <p>
                                             <h2>⚑ 2017-09 ~ 2018-06</h2>
-                                            <div class="col-lg-81">
-                                                <h4>Yonsei Univ. Teaching Assistant / RA수업 학생강사</h4>
-                                                <h5>TA, leading the class of music</h5>
-                                                    ▪︎ I was only Sophomore, but thanks to my experience about music in young, I was the
-                                                    youngest and delegating piano player among TAs.<br>
-                                                    ▪︎ I am able to play Jazz, Classic, pop, Choir, and anything that students and professor
-                                                    want. And also, as I was leader of TA, I can grow my leadership through every single
-                                                    class.<br>
-                                                    ▪︎ Were not only playing the piano but also composing my works. Thanks to my
-                                                    experience of learning Computer Science, I can use Python as my main tool to create
-                                                    music note. It was becoming one of the reasons why I am dreaming to become a
-                                                    person who will learn computer programming for some other works that I would like
-                                                    to achieve.
-                                            </div>
-                                        </p><br><br>
-                                        
+                                            <h4>Yonsei Univ. Teaching Assistant / RA수업 학생강사</h4>
+                                            <h5>TA, leading the class of music</h5>
+                                                ▪︎ I was only Sophomore, but thanks to my experience about music in young, I was the
+                                                youngest and delegating piano player among TAs.<br>
+                                                ▪︎ I am able to play Jazz, Classic, pop, Choir, and anything that students and professor
+                                                want. And also, as I was leader of TA, I can grow my leadership through every single
+                                                class.<br>
+                                                ▪︎ Were not only playing the piano but also composing my works. Thanks to my
+                                                experience of learning Computer Science, I can use Python as my main tool to create
+                                                music note. It was becoming one of the reasons why I am dreaming to become a
+                                                person who will learn computer programming for some other works that I would like
+                                                to achieve.<hr>
+                                        </p>
                                         <p>
                                             <h2>⚑ 2017-09 ~ 2018-06</h2>
-                                            <div class="col-lg-81">
-                                                <h4>Yonsei Univ. Student Officer / 행정팀 정보근로학생 </h4>
-                                                <h5>Student officer, web publishing and documentation</h5>
-                                                    ▪︎ College administration needed a student who can retain and recreate a homepage.
-                                                    In Economic and Business department, I was only one who can use HTML and CSS
-                                                    and JavaScript. I volunteered to become a student officer also including during winter
-                                                    and summer session.<br>
-                                                    ▪︎ It was not easy at first, but time goes by, I can raise my ability like how to deal with
-                                                    function of java script and what kind of sources are not giving huge effects on the
-                                                    serve. These experience made me take leader position as many as possible.
-                                            </div>
-                                        </p><br><br>
-
+                                        <h4>Yonsei Univ. Student Officer / 행정팀 정보근로학생 </h4>
+                                        <h5>Student officer, web publishing and documentation</h5>
+                                            ▪︎ College administration needed a student who can retain and recreate a homepage.
+                                            In Economic and Business department, I was only one who can use HTML and CSS
+                                            and JavaScript. I volunteered to become a student officer also including during winter
+                                            and summer session.<br>
+                                            ▪︎ It was not easy at first, but time goes by, I can raise my ability like how to deal with
+                                            function of java script and what kind of sources are not giving huge effects on the
+                                            serve. These experience made me take leader position as many as possible.<hr>
+                                        </p>
                                         <p>
                                             <h2>⚑ 2016-03 ~ 2016-06</h2>
-                                            <div class="col-lg-81">
-                                                <h4>English Tutoring / 국문과 교수님 영어과외</h4>
-                                                <h5>College professors whose major teaching course is Korean Literature</h5>
-                                                    ▪︎ I coached professors from Korean Literature because they needed scores in order
-                                                    to teach the courses abroad. I was suitable student instructor since I have been
-                                                    studying English only in Korea for 20 years. They would like to get some tips how to
-                                                    study English in Korea as old people who did not have to learn how to speak and write
-                                                    English when they are in young.<br>
-                                                    ▪︎ It was not easy, but they were so enthusiastic in learning. I was teaching English
-                                                    grammar first because without the normal form, they were not able to make their own
-                                                    story.<br>
-                                                    ▪︎ Finally, we all could go to the abroad to teach. This experience also gave me a
-                                                    wisdom that all people have passion to learn. So, I thought that If there is something I
-                                                    really want to try and achieve whenever I feel, I will go for it. And this thought led me
-                                                    to doing as much experience as possible in college.
-                                            </div>
-                                        </p><br><br>
+                                            <h4>English Tutoring / 국문과 교수님 영어과외</h4>
+                                            <h5>College professors whose major teaching course is Korean Literature</h5>
+                                                ▪︎ I coached professors from Korean Literature because they needed scores in order
+                                                to teach the courses abroad. I was suitable student instructor since I have been
+                                                studying English only in Korea for 20 years. They would like to get some tips how to
+                                                study English in Korea as old people who did not have to learn how to speak and write
+                                                English when they are in young.<br>
+                                                ▪︎ It was not easy, but they were so enthusiastic in learning. I was teaching English
+                                                grammar first because without the normal form, they were not able to make their own
+                                                story.<br>
+                                                ▪︎ Finally, we all could go to the abroad to teach. This experience also gave me a
+                                                wisdom that all people have passion to learn. So, I thought that If there is something I
+                                                really want to try and achieve whenever I feel, I will go for it. And this thought led me
+                                                to doing as much experience as possible in college.<hr>
+                                        </p>
                                         <p>
                                             <h2>⚑ 2016-03 ~ 2017-04</h2>
-                                            <div class="col-lg-81">
-                                                <h4>Yonsei Univ. Student Council Design Leader / 홍보국 팀장</h4>
-                                                <h5>Designer and Planner using Adobe program</h5>
-                                                    ▪︎ As design team leader, I studied Adobe Premiere Pro, Illustrator, Photoshop,
-                                                    Indesign. I, in fact, can handle these tools before, but in order to improve my talent, I
-                                                    took course of design program at school with media and art students.<br>
-                                                    ▪︎ Thanks to this experience, I created formal presentation and logo form for younger
-                                                    generation. It was big success because I could sell the highest number of my
-                                                    division’s jacket and T-Shirts. After that, students are using my tool when they work.
-                                            </div>
-                                        </p><br><br>
+                                            <h4>Yonsei Univ. Student Council Design Leader / 홍보국 팀장</h4>
+                                            <h5>Designer and Planner using Adobe program</h5>
+                                                ▪︎ As design team leader, I studied Adobe Premiere Pro, Illustrator, Photoshop,
+                                                Indesign. I, in fact, can handle these tools before, but in order to improve my talent, I
+                                                took course of design program at school with media and art students.<br>
+                                                ▪︎ Thanks to this experience, I created formal presentation and logo form for younger
+                                                generation. It was big success because I could sell the highest number of my
+                                                division’s jacket and T-Shirts. After that, students are using my tool when they work.<hr>
+                                        </p>
                                         <p>
                                             <h2>⚑ 2015-11 ~ 2018-03</h2>
-                                            <div class="col-lg-81">
-                                                <h4>English Interview Private Institution / SK명문학원</h4>
-                                                <h5>Instructor teaching TOEFL, TOEIC, TEPS, English/Korean Interview</h5>
-                                                    ▪︎ For 4 years, I was English Instructor of teaching English speaking and Interview. The
-                                                    reason why I was working in college is that I would like to give to students that “even
-                                                    though you were not studying abroad, with effort and passion, you can achieve many
-                                                    things that you plan.” I was working headquarter and helped CEO to make franchise at
-                                                    Jeju Island.
-                                            </div>
-                                        </p><br><br>
+                                            <h4>English Interview Private Institution / SK명문학원</h4>
+                                            <h5>Instructor teaching TOEFL, TOEIC, TEPS, English/Korean Interview</h5>
+                                                ▪︎ For 4 years, I was English Instructor of teaching English speaking and Interview. The
+                                                reason why I was working in college is that I would like to give to students that “even
+                                                though you were not studying abroad, with effort and passion, you can achieve many
+                                                things that you plan.” I was working headquarter and helped CEO to make franchise at
+                                                Jeju Island.<hr>
+
+                                        </p>
                                         
                                     </div>
                                     <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
@@ -339,22 +327,16 @@ Based on Seoul, Seattle, New York</p>
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h1 class="portfolio-modal-title text-secondary text-black mb-0">Skills</h1><br><br>
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Skills</h2>
+                                    <!-- Icon Divider-->
+                                    <div class="divider-custom">
+                                        <div class="divider-custom-line"></div>
+                                        <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                                        <div class="divider-custom-line"></div>
+                                    </div>
                                     <!-- Portfolio Modal - Image-->
-                                    <img src="assets/img/skills/skillsrandom.png" style="width:100%" alt="Skills"/><br><br>
+                                    <img class="img-fluid rounded mb-5" src="assets/img/portfolio/skills.png" alt="Skills"/>
                                     <!-- Portfolio Modal - Text-->
-                                    <h1>Education</h1><br>
-                                    <p>
-                                        <h2>⚑ 2016-03 ~ 2020-08</h2>
-                                        <div class="col-lg-81">
-                                            <h4>B.A. Yonsei University East Asian International Studies</h4>
-                                            <h5>Business and Economic Track</h5>
-                                            <h5>연세대학교 동아시아국제학부 (경영/경제 트랙) 수료</h5>
-                                        </div>
-                                    </p><br><br>
-
-                                    <p>
-                                        <h2>⚑ 2019-1
                                     <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                     <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
@@ -373,28 +355,15 @@ Based on Seoul, Seattle, New York</p>
                             <div class="row justify-content-center">
                                 <div class="col-lg-8">
                                     <!-- Portfolio Modal - Title-->
-                                    <h2 class="portfolio-modal-title text-secondary text-black mb-0">Projects</h2>
+                                    <h2 class="portfolio-modal-title text-secondary mb-0">Projects</h2>
                                     <!-- Icon Divider-->
                                     <div class="divider-custom">
                                         <div class="divider-custom-line"></div>
                                         <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                                         <div class="divider-custom-line"></div>
                                     </div>
-                                    <!-- Portfolio Modal - Image-->
+                                    <!-- Portfolio Modal - Image--><img class="img-fluid rounded mb-5" src="assets/img/portfolio/proejcts.png" alt="Projects"/>
                                     <!-- Portfolio Modal - Text-->
-                                    <h1>Education</h1><br>
-                                    <p>
-                                        <h2>⚑ 2016-03 ~ 2020-08</h2>
-                                        <div class="col-lg-81">
-                                            <h4>B.A. Yonsei University East Asian International Studies</h4>
-                                            <h5>Business and Economic Track</h5>
-                                            <h5>연세대학교 동아시아국제학부 (경영/경제 트랙) 수료</h5>
-                                        </div>
-                                    </p><br><br>
-
-
-
-
                                     <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit.Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
                                     <button class="btn btn-primary" href="#" data-dismiss="modal"><i class="fas fa-times fa-fw"></i>Close Window</button>
                                 </div>
@@ -462,56 +431,37 @@ Based on Seoul, Seattle, New York</p>
             <div class="container">
                 <!-- About Section Heading-->
                 <div class="text-center">
-                    <h2 class="page-section-heading d-inline-block text-white">ABOUT ME !</h2>
+                    <h2 class="page-section-heading d-inline-block text-white">ABOUT</h2>
                 </div>
                 <!-- Icon Divider-->
-                <div class ="text-center">
-                    <br>
-                    <img src="assets/img/jihye.png" style="width:200px" alt="Experience"/>
-                    <br><br>
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                    <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
+                    <div class="divider-custom-line"></div>
                 </div>
-                
-                <!-- About Section Content 1-->
-                <div class="row2">
-                    <div class="col-lg-41 ml-auto">
-                        <p class="pre-wrap lead">I studied <a class="font-weight-bold font-italic">East Asian International Studies(EIC)</a>. As having  played the piano  13 years before entering into College, I was good at working in arts by using <a class ="font-weight-bold font-italic">Photoshop, Primeire Pro and Illustrator</a>. 
-
-In working, I thought if I can use code and make sometihng through programming, I can show the more things of my creativity, and it would be my own special skills. I was so excited since it makes me find something that i want to learn and become.
-
-I decided to study <a calss="font-weight-bold font-italic">computer programming</a>. Passion in learning computer programming led me to take course of "Introduction to Software programming and Python" at school and apply to many events held by Samsung SDS and Electronics, such as <a class="font-weight-bold font-italic">IT mentoring and Bixby Conference.</a>
-
-Thanks to my effort, before graduation, I was picked to take course of <a class="font-weight-bold font-italic">"Bigdata Platform using Open API"</a> among hundred of applicants, which is based on Web and Bigdata Analysis held by Samsung SDS Multicampus. I have been learning  <a class="font-weight-bold font-italic"> Java, SQL, HTML, CSS, JavaScript, JSP, Spring MVC, D3, SVG, My Batis, Leaflet, Linux, Hadoop, Spark, Scala, Python, R</a>.
-                        </p>
+                <!-- About Section Content-->
+                <div class="row">
+                    <div class="col-lg-4 ml-auto">
+                        <p class="pre-wrap lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p>
                     </div>
-
-                <!-- About Section Content 2-->
-                    <div class="col-lg-41 mr-auto">
-                        <p class="pre-wrap lead">I have experiences of handling 3 times of Web Projects </a> and led 5 members except me. Most of my work is in charging of <a class="font-weight-bold font-italic">"Front-end, Back-end, DB using R"</a>. 
-
-At the beginning of projects, we had difficulty in making all the layouts with our CSS skills, but kept trying to use the tags and figured out by using <a class="font-weight-bold font-italic">Bootstrap</a>. By using this tool, thankfly, all of us are familiar with handling tools and primary layouts. 
-
-After that, whenever in projects, I am not afraid of making logos with SVGs and creating contents. With some experience, my team applied to <a class="font-weight-bold font-italic">"K-startup" and "정주영창업경진대회"</a> whose idea is based on using Web programming.
-
-Like this, I keep going on my goal and find out what kind of things I need to or can do. For 5 months, I have focused on learning programming and participating in Startup Competition. Not only for people becoming to run own business but also planning and studying was it great chance to challenge.
-                        </p>
+                    <div class="col-lg-4 mr-auto">
+                        <p class="pre-wrap lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p>
                     </div>
                 </div>
             </div>
         </section>
-
         <section class="page-section" id="contact">
             <div class="container">
                 <!-- Contact Section Heading-->
                 <div class="text-center">
-                    <h2 class="page-section-heading text-secondary d-inline-block mb-0">CONTACT</h2><br><br>
-                    <h4 class="mb-0"> I'm waiting for your contact!</h4><br>
+                    <h2 class="page-section-heading text-secondary d-inline-block mb-0">CONTACT</h2>
                 </div>
                 <!-- Icon Divider-->
-                <!--<div class="divider-custom">
+                <div class="divider-custom">
                     <div class="divider-custom-line"></div>
                     <div class="divider-custom-icon"><i class="fas fa-star"></i></div>
                     <div class="divider-custom-line"></div>
-                </div>-->
+                </div>
                 <!-- Contact Section Content-->
                 <div class="row justify-content-center">
                     <div class="col-lg-4">
@@ -570,3 +520,7 @@ Seoul, South Korea 06221</p>
         <script src="js/scripts.js"></script>
     </body>
 </html>
+=======
+Hi!
+I'm pre Bixby Devloper
+>>>>>>> a86435c06b0c41e71b75a69350479aa86c1418ed
