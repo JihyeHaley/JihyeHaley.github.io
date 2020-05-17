@@ -448,6 +448,7 @@ pre {
   margin-right: auto;
   margin-left: auto; }
 
+
 @media (min-width: 576px) {
   .container {
     max-width: 540px; } }
@@ -952,10 +953,10 @@ pre {
     flex: 0 0 25%;
     max-width: 25%; }
   .col-lg-41{
-    flex: 0 0 50%;
+    flex: 0 20% 0 20%;
     margin-left: 20px;
     margin-right:20px;
-    max-width: 45%;}
+    max-width: 48%;}
   .col-lg-4 {
     flex: 0 0 33.3333333333%;
     max-width: 33.3333333333%; }
@@ -5945,6 +5946,7 @@ button.bg-dark:focus {
 .ml-auto,
 .mx-auto {
   margin-left: auto !important; }
+
 
 @media (min-width: 576px) {
   .m-sm-0 {
