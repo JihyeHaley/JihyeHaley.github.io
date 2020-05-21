@@ -991,10 +991,16 @@ pre {
   .col-lg-82{
     margin-left:32px;
     max-width: 100%; }
-  .col-lg-85
+  .col-lg-83{
+    max-width:80%;
+  }
+  .col-lg-85{
     max-width: 85%; }
   .col-lg-80{
     max-width: 80%; }
+  .col-lg-90{
+    max-width: 90%;
+  }
   .col-lg-9 {
     flex: 0 0 75%;
     max-width: 75%; }
