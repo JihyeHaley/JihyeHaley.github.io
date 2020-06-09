@@ -7457,3 +7457,20 @@ form .row:first-child .floating-label-form-group {
 
 .navbar-brand img {
   max-width: 13.5rem; }
+
+.img-port{
+  width:30.33333333%;
+}
+
+.img-experience{
+  width:25.3333333333%;
+}
+
+.img-skills{
+  width:45%; 
+  margin-bottom:30px;
+}
+
+.img-project {
+  width:31.3333333333%;
+}
