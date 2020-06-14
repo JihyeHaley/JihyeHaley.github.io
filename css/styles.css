@@ -5735,6 +5735,9 @@ button.bg-dark:focus {
 .my-5 {
   margin-bottom: 3rem !important; }
 
+.mb-6{
+  margin-bottom: 6rem !important;
+}
 .ml-5,
 .mx-5 {
   margin-left: 3rem !important; }
@@ -7490,4 +7493,10 @@ form .row:first-child .floating-label-form-group {
 .third-background {
   background-color:white;
   border-radius: 10px;
+}
+
+.design-img{
+  width: 100%; 
+  border:solid; 
+  border-radius:30px;
 }
