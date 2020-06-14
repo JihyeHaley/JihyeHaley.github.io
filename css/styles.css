@@ -987,7 +987,8 @@ pre {
     max-width: 66.6666666667%; }
   .col-lg-81{
     margin-left:20px;
-    max-width: 100%; }
+    max-width: 100%;
+    margin-bottom: 50px; }
   .col-lg-82{
     margin-left:32px;
     max-width: 100%; }
@@ -7221,6 +7222,12 @@ h3 {
     font-size: 2.25rem;
     line-height: 2rem; }
 
+.page-section {
+  padding: 6rem 0; }
+    .page-section .page-section-heading-third {
+      font-size: 1.75rem;
+      line-height: 2rem; }
+
 @media (min-width: 992px) {
   .page-section .page-section-heading {
     font-size: 3rem;
@@ -7473,4 +7480,14 @@ form .row:first-child .floating-label-form-group {
 
 .img-project {
   width:31.3333333333%;
+}
+
+.skill-font {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+.third-background {
+  background-color:white;
+  border-radius: 10px;
 }
