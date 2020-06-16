@@ -7531,47 +7531,30 @@ form .row:first-child .floating-label-form-group {
   border-radius:30px;
 }
 
-.box-red{
+.box{
   display: inline-block;
+  height: 2rem;
+  width: 2rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.78rem;
+}
+
+.red{
   background-color: #ff3300;
-  height: 2rem;
-  width: 2rem;
-  margin-right: 0.5rem;
-  margin-bottom: 0.78rem;
 }
 
-.box-yellow{
-  display: inline-block;
+.yellow{
   background-color: #ffcc00;
-  height: 2rem;
-  width: 2rem;
-  margin-right: 0.5rem;
-  margin-bottom: 0.78rem;
 }
 
-.box-green{
-  display: inline-block;
+.green{
   background-color: #00b33c;
-  height: 2rem;
-  width: 2rem;
-  margin-right: 0.5rem;
-  margin-bottom: 0.78rem;
 }
 
-.box-blue{
-  display: inline-block;
+.blue{
   background-color: #008ae6;
-  height: 2rem;
-  width: 2rem;
-  margin-right: 0.5rem;
-  margin-bottom: 0.78rem;
 }
 
-.box-purple{
-  display: inline-block;
+.purple{
   background-color: #4d0099;
-  height: 2rem;
-  width: 2rem;
-  margin-right: 0.5rem;
-  margin-bottom: 0.78rem;
 }
