@@ -7507,7 +7507,7 @@ form .row:first-child .floating-label-form-group {
 }
 
 .img-experience{
-  width:25.3333333333%;
+  width:15%;
 }
 
 .img-skills{
@@ -7561,4 +7561,11 @@ form .row:first-child .floating-label-form-group {
 
 .purple{
   background-color: #4d0099;
+}
+
+.skills-image{
+  width: 5%;
+  display: inline-block;
+  margin-right: 5px;
+  margin-bottom: 4px;
 }
