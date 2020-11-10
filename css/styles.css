@@ -408,6 +408,14 @@ mark,
     content: "\2014\00A0"; }
 
 .img-fluid {
+  max-width: 100%;
+  height: auto; }
+
+.img-fluid-projects{
+  width:80%;
+}
+
+.img-fluid-skill {
   max-width: 80%;
   height: auto; }
 
